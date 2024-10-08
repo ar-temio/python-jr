@@ -1,2 +1,4 @@
 print("Hello, Tema!")
-# just a comment
+# just a commit
+print("i love alek!")
+
