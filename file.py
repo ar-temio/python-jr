@@ -5,4 +5,7 @@ print('my name alek')
 print('i love mam,tema')
 print('my name mam')
 print('i love alek,tema')
+#ALEK=PAPA
+#MAM=marina
+#TEMA=sen
 
