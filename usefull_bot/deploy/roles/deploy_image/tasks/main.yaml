@@ -1,0 +1,14 @@
+---
+- name: Ensure container is stopped
+  community.docker.docker_container:
+    name: "{{ container_name }}"
+    state: absent
+
+- name: Deploy image
+  community.docker.docker_container:
+    name: "{{ container_name }}"
+    image: "{{ repo_name }}/{{ image_name }}:{{ tag }}"
+    state: started
+    env:
+      APP_VERSION: "{{ tag }}"
+      TG_TOKEN: "{{ tg_token }}"
