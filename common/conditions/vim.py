@@ -1,8 +1,7 @@
-bot = ("telegram")
-if  bot == "temperatyri":
-    bot = ("tem")
+bot = "telegram"
+
+if bot == "temperatyri":
+    bot = "tem"
 else:
-if bot == "bitkoan":
-    bot = ("bit")
-
-
+    bot == "bitkoan"
+    bot = "bit"
