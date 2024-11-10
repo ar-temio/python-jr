@@ -4,7 +4,7 @@ import requests
 # Функция для запроса температуры с сайта wttr.in
 def get_temperature():
     try:
-        response = requests.get("https://wttr.in/?format=j1")
+        response = requests.get("https://wttr.in/Volgograd?format=j1")
         data = response.json()
         temp_C = data['current_condition'][0]['temp_C']
         #############
