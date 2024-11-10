@@ -1,8 +1,13 @@
 bot = ("telegram")
-if  bot == "temperatyri":
-    bot = ("tem")
+
+if bot == "temp":
+    print(bot)
 else:
-if bot == "bitkoan":
-    bot = ("bit")
+    print(bot)
+
+
+
+
+
 
 
