@@ -10,9 +10,9 @@ def get_temperature():
         #############
 
         if int(temp_C) > 0:
-            return f"жара: +{temp_C}°C"
+            return f"hot: +{temp_C}°C"
         else:
-            return f"холодно: {temp_C}°C"
+            return f"cold: {temp_C}°C"
         return temp_C
 
         #############
