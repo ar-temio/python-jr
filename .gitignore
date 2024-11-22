@@ -14,4 +14,4 @@ __pycache__/
 # Ignore inventory files
 **/inventory.yaml
 **/Makefile
-
+**/.DS_Store
