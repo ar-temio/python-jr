@@ -16,3 +16,4 @@ __pycache__/
 **/Makefile
 **/.DS_Store
 **/wttr.json
+**/venv
