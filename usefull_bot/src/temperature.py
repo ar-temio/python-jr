@@ -9,7 +9,6 @@ def get_temperature():
         temp_C = data['current_condition'][0]['temp_C']
         windspeed = data['current_condition'][0]['windspeedKmph']
         #############
-"value": "Mist"
 
         return f"Температура в Волгограде: {temp_C}°C, скорость ветра: {windspeed} км/ч"
 
