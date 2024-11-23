@@ -9,6 +9,7 @@ def get_temperature():
         temp_C = data['current_condition'][0]['temp_C']
         windspeed = data['current_condition'][0]['windspeedKmph']
         windspeed = int(windspeed) * 1000 / 3600
+        weather_description = data["current_condition"][0]["weatherDesc"][0]["value"]
         #############
 
         return f"temperature: {temp_C}°C, ветер: {windspeed} м/c"
