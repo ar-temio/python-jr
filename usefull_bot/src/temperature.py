@@ -8,9 +8,10 @@ def get_temperature():
         data = response.json()
         temp_C = data['current_condition'][0]['temp_C']
         windspeed = data['current_condition'][0]['windspeedKmph']
+        windspeed = int(windspeed) * 1000 / 3600
         #############
 
-        return f"Температура в Волгограде: {temp_C}°C, скорость ветра: {windspeed} км/ч"
+        return f"temperature: {temp_C}°C, ветер: {windspeed} м/c"
 
         #############
     except Exception as e:
