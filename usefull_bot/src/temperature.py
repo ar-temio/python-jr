@@ -12,8 +12,9 @@ def get_temperature():
         weather_description = data["current_condition"][0]["weatherDesc"][0]["value"]
         #############
 
-        return f"temperature: {temp_C}°C, ветер: {windspeed} м/c\nпогодные условия: {weather_description} "
+        return f"температура: {temp_C}°C, wind: {windspeed} м/c\nнаши погодные условия: {weather_description} "
 
         #############
     except Exception as e:
         return f"Ошибка при получении данных: {e}"
+    
