@@ -13,9 +13,9 @@ def get_temperature():
         #############
 
         if int(temp_C) > 0:
-            return "{temp_C}°C, wind: {windspeed} м/c\nпогодные условия: {weather_description}\nТема - красавчик!!! "
+            return f"{temp_C}°C, wind: {windspeed} м/c\nпогодные условия: {weather_description}\nТема - красавчик!!! "
         elif int(temp_C) < 0:
-            return "{temp_C}°C, wind: {windspeed} м/c\nпогодные условия: {weather_description}\nПипец!!! "
+            return f"{temp_C}°C, wind: {windspeed} м/c\nпогодные условия: {weather_description}\nПипец!!! "
         else:
             return "0 есть ноль"
 
