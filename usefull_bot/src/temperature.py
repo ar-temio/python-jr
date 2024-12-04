@@ -23,3 +23,4 @@ def get_temperature():
     except Exception as e:
         return f"Ошибка при получении данных: {e}"
     
+###
