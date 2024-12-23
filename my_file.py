@@ -1,16 +1,16 @@
-fruits = ["яблоко","банан","апельсин"," киви"]
+fruits = ["яблоко", "банан", "апельсин", " киви"]
 
 # fruits.append("манго")
-# 
-# 
+#
+#
 # fruits.sort()
-# 
-# 
+#
+#
 # print("Сортированные фрукты:")
 # for fruit in fruits:
 #     print(fruit)
-# 
-# 
+#
+#
 # first_ftuit = fruits[0]
 # print(f"Первый фрукт в списке: {first_ftuit}")
 
@@ -23,8 +23,10 @@ print(fruits)
 
 for i in range(len(fruits)):
     if fruits[i] == "каша":
-        fruits.pop(i)
-    
+        to_delete = i
+
+print(fruits)
+fruits.pop(to_delete)
 print(fruits)
 
 
